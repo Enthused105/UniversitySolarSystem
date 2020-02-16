@@ -24,7 +24,36 @@ public class GravityBody : MonoBehaviour
     public bool geostationaryOrbit;
     
     private Vector3 rotationalAxisVector;
+    
+    public Vector3 semiMajor;
+    public bool circularOrbit;
+    private float perihelion;
 
+    public float Perihelion
+    {
+        get => perihelion;
+        set => perihelion = value;
+    }
+
+    private float apohelion;
+
+    public float Apohelion
+    {
+        get => apohelion;
+        set => apohelion = value;
+    }
+
+    public float inclination;
+
+    public float forceMultiplier;
+
+    private float initialDisplacementY;
+
+    public float InitialDisplacementY
+    {
+        get => initialDisplacementY;
+        set => initialDisplacementY = value;
+    }
 
     //private float radius;
     
@@ -46,6 +75,11 @@ public class GravityBody : MonoBehaviour
             }
 
             Simulation.orbitingMap[orbitTarget].Add(this);
+        }
+
+        if (forceMultiplier > 0)
+        {
+            Simulation.forceMultMap.Add(this, forceMultiplier);
         }
     }
 
