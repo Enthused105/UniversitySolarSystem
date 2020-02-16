@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Reetoo\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Reetoo\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_UniversitySolarSystem.425047893.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\UniversitySolarSystem" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CameraMode.cs" t="Include" />
+        <e p="CameraModeController.cs" t="Include" />
+        <e p="FlyCamera.cs" t="Include" />
+        <e p="GlobalVariables.cs" t="Include" />
+        <e p="GravityBody.cs" t="Include" />
+        <e p="GravityBodyLightSource.cs" t="Include" />
+        <e p="LockedCamera.cs" t="Include" />
+        <e p="LockedCameraReverse.cs" t="Include" />
+        <e p="Planet.cs" t="Include" />
+        <e p="PlanetLabel.cs" t="Include" />
+        <e p="Simulation.cs" t="Include" />
+        <e p="TopDown.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="UniversitySolarSystem.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
