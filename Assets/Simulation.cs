@@ -12,7 +12,8 @@ using Vector3 = UnityEngine.Vector3;
 public class Simulation : MonoBehaviour
 {
     public static List<GravityBody> bodies = new List<GravityBody>();
-    public static float G = 518f;
+    public static readonly float G_BASE = 5.18f;
+    public static float G = G_BASE;
     public static Simulation simulation;
 
     public static Dictionary<GravityBody, List<GravityBody>> orbitingMap =
@@ -21,6 +22,7 @@ public class Simulation : MonoBehaviour
     public static Dictionary<GravityBody, float> forceMultMap = new Dictionary<GravityBody, float>();
     public GravityBody centerBody;
 
+    public float timeScale = 1;
 
     private void Awake()
     {
@@ -96,6 +98,22 @@ public class Simulation : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
+        }
+    }
+
+    public void setTimeScale(float f)
+    {
+        timeScale = f;
+
+        G = G_BASE * f;
+        
+        foreach (GravityBody body in bodies)
+        {
+            float factor = (float) Math.Sqrt(f/body.LastMultiplier);
+
+            body.angularVelocity = body.angularVelocity * factor;
+            body.rigidBody.velocity = body.rigidBody.velocity * factor;
+            body.LastMultiplier = f;
         }
     }
 

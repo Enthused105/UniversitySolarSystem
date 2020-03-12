@@ -29,6 +29,14 @@ public class GravityBody : MonoBehaviour
     public bool circularOrbit;
     private float perihelion;
 
+    private float lastMultiplier = 1;
+
+    public float LastMultiplier
+    {
+        get => lastMultiplier;
+        set => lastMultiplier = value;
+    }
+
     public float Perihelion
     {
         get => perihelion;
