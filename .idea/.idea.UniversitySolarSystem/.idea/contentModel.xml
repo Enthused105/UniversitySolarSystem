@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="CameraMode.cs" t="Include" />
         <e p="CameraModeController.cs" t="Include" />
+        <e p="DateLabel.cs" t="Include" />
         <e p="FlyCamera.cs" t="Include" />
         <e p="GlobalVariables.cs" t="Include" />
         <e p="GravityBody.cs" t="Include" />
@@ -16,6 +17,8 @@
         <e p="LockedCameraReverse.cs" t="Include" />
         <e p="Planet.cs" t="Include" />
         <e p="PlanetLabel.cs" t="Include" />
+        <e p="ShipCamera.cs" t="Include" />
+        <e p="ShipController.cs" t="Include" />
         <e p="Simulation.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -45,6 +48,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TimeLabel.cs" t="Include" />
         <e p="TopDown.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />

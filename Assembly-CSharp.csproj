@@ -60,6 +60,7 @@
   <ItemGroup>
      <Compile Include="Assets\CameraMode.cs" />
      <Compile Include="Assets\CameraModeController.cs" />
+     <Compile Include="Assets\DateLabel.cs" />
      <Compile Include="Assets\FlyCamera.cs" />
      <Compile Include="Assets\GlobalVariables.cs" />
      <Compile Include="Assets\GravityBody.cs" />
@@ -68,7 +69,10 @@
      <Compile Include="Assets\LockedCameraReverse.cs" />
      <Compile Include="Assets\Planet.cs" />
      <Compile Include="Assets\PlanetLabel.cs" />
+     <Compile Include="Assets\ShipCamera.cs" />
+     <Compile Include="Assets\ShipController.cs" />
      <Compile Include="Assets\Simulation.cs" />
+     <Compile Include="Assets\TimeLabel.cs" />
      <Compile Include="Assets\TopDown.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -322,9 +326,6 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/Unity/UniversitySolarSystem/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/Unity/UniversitySolarSystem/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -333,9 +334,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>D:/Unity/UniversitySolarSystem/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>D:/Unity/UniversitySolarSystem/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
