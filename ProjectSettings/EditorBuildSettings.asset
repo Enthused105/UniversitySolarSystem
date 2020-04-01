@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: db564369559005542bf88a85a5adb687
+  - enabled: 1
+    path: Assets/Scenes/Solar system.unity
+    guid: 58f7fe1bf178d1946b138114b774f5cf
+  - enabled: 0
+    path: Assets/Scenes/Menu.unity
+    guid: b84869e518b234c4cb9a310f395ee352
+  - enabled: 0
+    path: Assets/Scenes/Game.unity
+    guid: 51711fa7a4dac4e1b9ac95b0cec75aff
+  - enabled: 1
+    path: Assets/Scenes/Comet scene.unity
+    guid: fc58192ea744b7749abf5c79c4459771
   m_configObjects: {}
