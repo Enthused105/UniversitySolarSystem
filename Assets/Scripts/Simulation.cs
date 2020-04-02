@@ -12,7 +12,7 @@ using Vector3 = UnityEngine.Vector3;
 public class Simulation : MonoBehaviour
 {
     public static List<GravityBody> bodies = new List<GravityBody>();
-    public static readonly float G_BASE = 4.06f;
+    public static readonly float G_BASE = 0.530f;
     public static float G = G_BASE;
     public static Simulation simulation;
 
